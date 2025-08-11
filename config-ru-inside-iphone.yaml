@@ -26,7 +26,7 @@ sniffer:
 proxy-providers:
   sub:
     type: http
-    path: ./profiles/proxies/sub.yaml
+    path: ./profiles/proxies/proxies.yaml
     url: 'https://raw.githubusercontent.com/sbunkov/stash-configuration/main/proxies.yaml'
     interval: 86400
     health-check:
