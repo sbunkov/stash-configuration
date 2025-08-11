@@ -1,4 +1,3 @@
-
 #SUBSCRIBED https://raw.githubusercontent.com/sbunkov/stash-configuration/main/config-ru-inside-iphone.yaml
 mode: rule
 ipv6: false
@@ -36,14 +35,14 @@ proxy-providers:
       interval: 300
     benchmark-url: http://www.gstatic.com/generate_204
 proxy-groups:
-  - name: "AUTO"
+  - name: "Auto"
     type: url-test
     use:
       - sub
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
-  - name: YOUTUBE
+  - name: YouTube
     type: select
     use:
       - sub
@@ -51,7 +50,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png'
-  - name: DISCORD
+  - name: Discord
     type: select
     use:
       - sub
@@ -67,7 +66,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png'
-  - name: ANIME
+  - name: Anime
     type: select
     use:
       - sub
@@ -75,7 +74,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rainbow_1.png'
-  - name: INSTAGRAM
+  - name: Instagram
     type: select
     use:
       - sub
@@ -83,7 +82,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png'
-  - name: KINOPUB
+  - name: Kinopub
     type: select
     use:
       - sub
@@ -91,7 +90,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Paramount.png'
-  - name: TWITTER
+  - name: Twitter
     type: select
     use:
       - sub
@@ -99,7 +98,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png'
-  - name: TIKTOK
+  - name: TikTok
     type: select
     use:
       - sub
@@ -107,7 +106,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png'
-  - name: SPOTIFY
+  - name: Spotify
     type: select
     use:
       - sub
@@ -115,7 +114,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png'
-  - name: STEAM-STORE
+  - name: Steam
     type: select
     use:
       - sub
@@ -123,7 +122,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png'
-  - name: LOVE
+  - name: xxx
     type: select
     use:
       - sub
@@ -131,7 +130,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png'
-  - name: CHECK
+  - name: Check
     type: select
     use:
       - sub
@@ -139,7 +138,7 @@ proxy-groups:
       - AUTO
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png'
-  - name: OTHER
+  - name: Other
     type: select
     use:
       - sub
@@ -208,13 +207,13 @@ rule-providers:
     url: "https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Clash/Domains/Spotify.yaml"
     interval: 86400
     path: ./ruleset/spotify.yaml
-  steam-store:
+  steam:
     behavior: classical
     type: http
     url: "https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Clash/Domains/Steam_Store.yaml"
     interval: 86400
     path: ./ruleset/steam-store.yaml
-  love:
+  xxx:
     behavior: classical
     type: http
     url: "https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Clash/Domains/Love_full.yaml"
@@ -233,20 +232,20 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,youtube,YOUTUBE
-  - RULE-SET,discord,DISCORD
-  - RULE-SET,discord-voice,DISCORD
+  - RULE-SET,youtube,YouTube
+  - RULE-SET,discord,Discord
+  - RULE-SET,discord-voice,Discord
   - RULE-SET,ai,AI
-  - RULE-SET,anime,ANIME
-  - RULE-SET,instagram,INSTAGRAM
-  - RULE-SET,kinopub,KINOPUB
-  - RULE-SET,twitter,TWITTER
-  - RULE-SET,tiktok,TIKTOK
-  - RULE-SET,spotify,SPOTIFY
-  - RULE-SET,steam-store,STEAM-STORE
-  - RULE-SET,love,LOVE
-  - RULE-SET,check,CHECK
-  - RULE-SET,other,OTHER
+  - RULE-SET,anime,Anime
+  - RULE-SET,instagram,Instagram
+  - RULE-SET,kinopub,Kinopub
+  - RULE-SET,twitter,Twitter
+  - RULE-SET,tiktok,TikTok
+  - RULE-SET,spotify,Spotify
+  - RULE-SET,steam-store,Steam
+  - RULE-SET,xxx,xxx
+  - RULE-SET,check,Check
+  - RULE-SET,other,Other
   - MATCH,DIRECT
 subscribe-url: https://whereland.online/eUAiQHHLfneWo0tMAnYYPi0x9X4pZQ/user
 proxies:
