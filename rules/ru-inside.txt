@@ -1,4 +1,3 @@
-payload:
 DOMAIN-KEYWORD,4pda
 DOMAIN-KEYWORD,airbnb
 DOMAIN-KEYWORD,anzu-us
