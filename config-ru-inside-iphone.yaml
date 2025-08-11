@@ -265,12 +265,11 @@ rules:
   - MATCH,DIRECT
 subscribe-url: https://whereland.online/eUAiQHHLfneWo0tMAnYYPi0x9X4pZQ/user
 proxies:
-  - name: 'HostVDS Finland'
-    alterId: 0
+  - alterId: 0
     cipher: ""
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: HostVDS
+    name: HostVDS Finland
     port: 443
     reality-opts:
       public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
