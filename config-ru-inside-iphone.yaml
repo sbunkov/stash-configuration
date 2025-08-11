@@ -35,7 +35,7 @@ proxy-providers:
       interval: 300
     benchmark-url: http://www.gstatic.com/generate_204
 proxy-groups:
-  - name: "Auto"
+  - name: "AUTO"
     type: url-test
     use:
       - sub
@@ -242,7 +242,7 @@ rules:
   - RULE-SET,twitter,Twitter
   - RULE-SET,tiktok,TikTok
   - RULE-SET,spotify,Spotify
-  - RULE-SET,steam-store,Steam
+  - RULE-SET,steam,Steam
   - RULE-SET,xxx,xxx
   - RULE-SET,check,Check
   - RULE-SET,other,Other
