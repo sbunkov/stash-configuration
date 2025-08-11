@@ -160,7 +160,7 @@ rule-providers:
     type: http
     url: "https://raw.githubusercontent.com/sbunkov/stash-configuration/main/rules/ru-inside.yaml"
     interval: 86400
-    path: ./ruleset/my.yaml
+    path: ./ruleset/russia-inside.yaml
   youtube:
     behavior: classical
     type: http
