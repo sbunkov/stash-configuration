@@ -161,6 +161,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/sbunkov/stash-configuration/main/rules/ru-inside.txt"
     interval: 86400
     path: ./ruleset/russia-inside.txt
+    format: text
   youtube:
     behavior: classical
     type: http
