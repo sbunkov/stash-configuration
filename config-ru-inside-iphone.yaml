@@ -42,14 +42,14 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
-  - name: RU-Inside
+  - name: Russia Inside
     type: select
     use:
       - sub
     proxies:
       - AUTO
       - DIRECT
-    icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
+    icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Russia.png'
   - name: YouTube
     type: select
     use:
@@ -155,7 +155,7 @@ proxy-groups:
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
 rule-providers:
-  ru-inside:
+  russia-inside:
     behavior: classical
     type: http
     url: "https://raw.githubusercontent.com/sbunkov/stash-configuration/main/rules/ru-inside.yaml"
@@ -246,7 +246,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,ru-inside,RU-Inside
+  - RULE-SET,russia-inside,Russia Inside
   - RULE-SET,youtube,YouTube
   - RULE-SET,discord,Discord
   - RULE-SET,discord-voice,Discord
