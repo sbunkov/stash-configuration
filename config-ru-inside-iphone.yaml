@@ -265,7 +265,7 @@ rules:
   - MATCH,DIRECT
 subscribe-url: https://whereland.online/eUAiQHHLfneWo0tMAnYYPi0x9X4pZQ/user
 proxies:
-  - # Finland
+  - name: 'HostVDS Finland'
     alterId: 0
     cipher: ""
     client-fingerprint: chrome
