@@ -42,7 +42,7 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
-  - name: My
+  - name: RU-Inside
     type: select
     use:
       - sub
@@ -155,10 +155,10 @@ proxy-groups:
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
 rule-providers:
-  my:
+  ru-inside:
     behavior: classical
     type: http
-    url: "https://raw.githubusercontent.com/sbunkov/shadowrocket-configuration/main/lists/ru-inside.list"
+    url: "https://raw.githubusercontent.com/sbunkov/stash-configuration/main/rules/ru-inside.yaml"
     interval: 86400
     path: ./ruleset/my.yaml
   youtube:
@@ -246,7 +246,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,my,My
+  - RULE-SET,ru-inside,RU-Inside
   - RULE-SET,youtube,YouTube
   - RULE-SET,discord,Discord
   - RULE-SET,discord-voice,Discord
