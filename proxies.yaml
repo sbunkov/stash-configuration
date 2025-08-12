@@ -1,16 +1,1 @@
-proxies:
-  - name: HostVDS Finland
-    alterId: 0
-    cipher: ""
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    port: 443
-    reality-opts:
-      public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
-      short-id: 22dff0
-    server: www.whereland.online
-    servername: whereland.online
-    sni: whereland.online
-    tls: true
-    type: vless
-    uuid: d6b625a6-fe08-42a8-ada5-22b50c4f767f
+dmxlc3M6Ly9kNmI2MjVhNi1mZTA4LTQyYTgtYWRhNS0yMmI1MGM0Zjc2N2ZAd3d3LndoZXJlbGFuZC5vbmxpbmU6NDQzLz90eXBlPXRjcCZzZWN1cml0eT1yZWFsaXR5JnBiaz1aUnNhRGlsMERSTVBH UklueDV0aT dVS3VOLVoKفون
