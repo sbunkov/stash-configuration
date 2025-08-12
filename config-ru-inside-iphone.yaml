@@ -247,21 +247,21 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,russia-inside,Russia Inside
-  - RULE-SET,youtube,YouTube
-  - RULE-SET,discord,Discord
-  - RULE-SET,discord-voice,Discord
-  - RULE-SET,ai,AI
-  - RULE-SET,anime,Anime
-  - RULE-SET,instagram,Instagram
-  - RULE-SET,kinopub,Kinopub
-  - RULE-SET,twitter,Twitter
-  - RULE-SET,tiktok,TikTok
-  - RULE-SET,spotify,Spotify
-  - RULE-SET,steam,Steam
-  - RULE-SET,xxx,xxx
-  - RULE-SET,check,Check
-  - RULE-SET,other,Other
+  - RULE-SET,russia-inside,AUTO
+  - RULE-SET,youtube,DIRECT
+  - RULE-SET,discord,AUTO
+  - RULE-SET,discord-voice,AUTO
+  - RULE-SET,ai,AUTO
+  - RULE-SET,anime,AUTO
+  - RULE-SET,instagram,AUTO
+  - RULE-SET,kinopub,AUTO
+  - RULE-SET,twitter,AUTO
+  - RULE-SET,tiktok,AUTO
+  - RULE-SET,spotify,AUTO
+  - RULE-SET,steam,AUTO
+  - RULE-SET,xxx,AUTO
+  - RULE-SET,check,AUTO
+  - RULE-SET,other,AUTO
   - MATCH,DIRECT
 proxies:
   - name: HostVDS Finland
