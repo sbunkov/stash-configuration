@@ -1,4 +1,4 @@
-#SUBSCRIBED https://raw.githubusercontent.com/sbunkov/stash-configuration/main/config-ru-inside-iphone.yaml
+#SUBSCRIBED https://raw.githubusercontent.com/sbunkov/stash-configuration/main/config.yaml
 mode: rule
 ipv6: false
 log-level: error
