@@ -30,10 +30,18 @@ tiles:
     content: 'content'
     icon: 'network'
     backgroundColor: '#696aad'
+  - name: media
+    interval: 600
+    title: 'Streaminbg Info'
+    content: ''
+    icon: 'play.tv.fill'
 script-providers:
   getip:
     url: https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Stash/Scripts/getip.js
     interval: 86400
+  media:
+    url: https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Stash/Scripts/media.js
+  interval: 86400
 proxy-providers:
   sub:
     type: http
