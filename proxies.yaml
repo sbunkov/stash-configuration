@@ -14,20 +14,6 @@ proxies:
     reality-opts:
       public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
       short-id: 22dff0
-    
-  - name: "EOFVPN Russia"
-    type: vmess
-    server: 89.23.113.148
-    port: 8081
-    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
-    alterId: 0
-    cipher: auto
-    network: http
-    ws-opts:
-      path: /
-      headers:
-        Host: coursera.org
-    udp: true
 
   - name: "EOFVPN Germany"
     type: vmess
@@ -41,6 +27,20 @@ proxies:
       path: /
       headers:
         Host: cdn.jsdelivr.net
+    udp: true
+
+  - name: "EOFVPN Russia"
+    type: vmess
+    server: 89.23.113.148
+    port: 8081
+    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
+    alterId: 0
+    cipher: auto
+    network: http
+    ws-opts:
+      path: /
+      headers:
+        Host: coursera.org
     udp: true
 
   - name: "Freedomline"
