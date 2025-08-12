@@ -306,7 +306,7 @@ proxies:
     server: 89.23.113.148
     port: 8081
     uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
-    alterID: 0
+    alterId: 0
     cipher: auto
     network: http
     ws-opts:
@@ -320,7 +320,7 @@ proxies:
     server: 147.45.178.107
     port: 8081
     uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
-    alterID: 0
+    alterId: 0
     cipher: auto
     network: http
     ws-opts:
