@@ -23,26 +23,6 @@ sniffer:
     - 'Mijia Cloud'
     - +.lan
     - +.local
-tiles:
-  - name: getip
-    interval: 600
-    title: 'Information'
-    content: 'content'
-    icon: 'network'
-    backgroundColor: '#696aad'
-  - name: services
-    interval: 600
-    title: 'Services Availability'
-    content: 'content'
-    icon: 'waveform.path.ecg'
-    backgroundColor: '#4caf50'
-script-providers:
-  getip:
-    url: https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Stash/Scripts/getip.js
-    interval: 86400
-  services:
-    url: https://github.com/mishkajackson/Rules/raw/refs/heads/main/Stash/Scripts/site_ping.js
-    interval: 86400
 proxy-providers:
   sub:
     type: http
