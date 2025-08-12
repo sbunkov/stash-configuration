@@ -263,3 +263,59 @@ rules:
   - RULE-SET,check,AUTO
   - RULE-SET,other,AUTO
   - MATCH,DIRECT
+proxies:
+  - name: HostVDS Finland
+    type: vless
+    server: www.whereland.online
+    port: 443
+    uuid: d6b625a6-fe08-42a8-ada5-22b50c4f767f
+    alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    tls: true
+    servername: whereland.online
+    sni: whereland.online
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
+      short-id: 22dff0
+      
+  - name: "EOFVPN Russia"
+    type: vmess
+    server: 89.23.113.148
+    port: 8081
+    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
+    alterID: 0
+    cipher: auto
+    network: http
+    ws-opts:
+      path: /
+      headers:
+        Host: coursera.org
+    udp: true
+    
+  - name: "EOFVPN Germany"
+    type: vmess
+    server: 147.45.178.107
+    port: 8081
+    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
+    alterID: 0
+    cipher: auto
+    network: http
+    ws-opts:
+      path: /
+      headers:
+        Host: cdn.jsdelivr.net
+    udp: true
+
+  - name: "Freedomline"
+    type: wireguard
+    server: 45.144.52.124
+    port: 51745
+    publicKey: "LbQ44BvQnWpvDkttnu8PAXRlTt5H5uY/smUic9CQSHI="
+    privateKey: "WFWNv0zEoUfG8ewjf+i/B1QgXOwYzId2TNsk+dTEfF4="
+    addresses:
+      - "10.9.8.29"
+    dns:
+      - 8.8.8.8
+    udp: true
