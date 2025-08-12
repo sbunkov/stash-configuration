@@ -263,3 +263,19 @@ rules:
   - RULE-SET,check,Check
   - RULE-SET,other,Other
   - MATCH,DIRECT
+proxies:
+  - name: HostVDS Finland
+    alterId: 0
+    cipher: ""
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    port: 443
+    reality-opts:
+      public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
+      short-id: 22dff0
+    server: www.whereland.online
+    servername: whereland.online
+    sni: whereland.online
+    tls: true
+    type: vless
+    uuid: d6b625a6-fe08-42a8-ada5-22b50c4f767f
