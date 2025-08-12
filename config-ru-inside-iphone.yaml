@@ -42,20 +42,12 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
-  - name: MANUAL
-    type: select
-    proxies:
-      - HostVDS Finland
-      - EOFVPN Russia
-      - EOFVPN Germany
-    icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
   - name: Russia Inside
     type: select
     use:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Russia.png'
   - name: YouTube
@@ -64,7 +56,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png'
   - name: Discord
@@ -73,7 +64,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png'
   - name: AI
@@ -82,7 +72,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png'
   - name: Anime
@@ -91,7 +80,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rainbow_1.png'
   - name: Instagram
@@ -100,7 +88,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png'
   - name: Kinopub
@@ -109,7 +96,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Paramount.png'
   - name: Twitter
@@ -118,7 +104,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png'
   - name: TikTok
@@ -127,7 +112,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png'
   - name: Spotify
@@ -136,7 +120,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png'
   - name: Steam
@@ -145,7 +128,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png'
   - name: xxx
@@ -154,7 +136,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png'
   - name: Check
@@ -163,7 +144,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png'
   - name: Other
@@ -172,7 +152,6 @@ proxy-groups:
       - sub
     proxies:
       - AUTO
-      - MANUAL
       - DIRECT
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
 rule-providers:
