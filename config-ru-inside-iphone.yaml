@@ -248,7 +248,7 @@ rule-providers:
     path: ./ruleset/other.yaml
 rules:
   - RULE-SET,russia-inside,AUTO
-  - RULE-SET,youtube,DIRECT
+  - RULE-SET,youtube,AUTO
   - RULE-SET,discord,AUTO
   - RULE-SET,discord-voice,AUTO
   - RULE-SET,ai,AUTO
