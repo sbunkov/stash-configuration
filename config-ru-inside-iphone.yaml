@@ -269,21 +269,21 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,russia-inside,AUTO
+  - RULE-SET,russia-inside,MANUAL
   - RULE-SET,youtube,DIRECT
-  - RULE-SET,discord,AUTO
-  - RULE-SET,discord-voice,AUTO
-  - RULE-SET,ai,AUTO
-  - RULE-SET,anime,AUTO
-  - RULE-SET,instagram,AUTO
-  - RULE-SET,kinopub,AUTO
-  - RULE-SET,twitter,AUTO
-  - RULE-SET,tiktok,AUTO
-  - RULE-SET,spotify,AUTO
-  - RULE-SET,steam,AUTO
-  - RULE-SET,xxx,AUTO
-  - RULE-SET,check,AUTO
-  - RULE-SET,other,AUTO
+  - RULE-SET,discord,MANUAL
+  - RULE-SET,discord-voice,MANUAL
+  - RULE-SET,ai,MANUAL
+  - RULE-SET,anime,MANUAL
+  - RULE-SET,instagram,MANUAL
+  - RULE-SET,kinopub,MANUAL
+  - RULE-SET,twitter,MANUAL
+  - RULE-SET,tiktok,MANUAL
+  - RULE-SET,spotify,MANUAL
+  - RULE-SET,steam,MANUAL
+  - RULE-SET,xxx,MANUAL
+  - RULE-SET,check,MANUAL
+  - RULE-SET,other,MANUAL
   - MATCH,DIRECT
 proxies:
   - name: HostVDS Finland
@@ -328,16 +328,4 @@ proxies:
       path: /
       headers:
         Host: cdn.jsdelivr.net
-    udp: true
-
-  - name: "Freedomline"
-    type: wireguard
-    server: 45.144.52.124
-    port: 51745
-    publicKey: "LbQ44BvQnWpvDkttnu8PAXRlTt5H5uY/smUic9CQSHI="
-    privateKey: "WFWNv0zEoUfG8ewjf+i/B1QgXOwYzId2TNsk+dTEfF4="
-    addresses:
-      - "10.9.8.29"
-    dns:
-      - 8.8.8.8
     udp: true
