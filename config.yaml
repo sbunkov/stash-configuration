@@ -41,7 +41,7 @@ script-providers:
     interval: 86400
   media:
     url: https://raw.githubusercontent.com/mishkajackson/Rules/refs/heads/main/Stash/Scripts/media.js
-  interval: 86400
+    interval: 86400
 proxy-providers:
   sub:
     type: http
