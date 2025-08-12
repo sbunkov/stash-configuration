@@ -268,63 +268,19 @@ rule-providers:
     interval: 86400
     path: ./ruleset/other.yaml
 rules:
-  - RULE-SET,russia-inside,MANUAL
+  - RULE-SET,russia-inside,AUTO
   - RULE-SET,youtube,DIRECT
-  - RULE-SET,discord,MANUAL
-  - RULE-SET,discord-voice,MANUAL
-  - RULE-SET,ai,MANUAL
-  - RULE-SET,anime,MANUAL
-  - RULE-SET,instagram,MANUAL
-  - RULE-SET,kinopub,MANUAL
-  - RULE-SET,twitter,MANUAL
-  - RULE-SET,tiktok,MANUAL
-  - RULE-SET,spotify,MANUAL
-  - RULE-SET,steam,MANUAL
-  - RULE-SET,xxx,MANUAL
-  - RULE-SET,check,MANUAL
-  - RULE-SET,other,MANUAL
+  - RULE-SET,discord,AUTO
+  - RULE-SET,discord-voice,AUTO
+  - RULE-SET,ai,AUTO
+  - RULE-SET,anime,AUTO
+  - RULE-SET,instagram,AUTO
+  - RULE-SET,kinopub,AUTO
+  - RULE-SET,twitter,AUTO
+  - RULE-SET,tiktok,AUTO
+  - RULE-SET,spotify,AUTO
+  - RULE-SET,steam,AUTO
+  - RULE-SET,xxx,AUTO
+  - RULE-SET,check,AUTO
+  - RULE-SET,other,AUTO
   - MATCH,DIRECT
-proxies:
-  - name: HostVDS Finland
-    type: vless
-    server: www.whereland.online
-    port: 443
-    uuid: d6b625a6-fe08-42a8-ada5-22b50c4f767f
-    alterId: 0
-    cipher: ""
-    flow: xtls-rprx-vision
-    tls: true
-    servername: whereland.online
-    sni: whereland.online
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZRsaDil0DRMPGP6Inx5ti7UKuN5ZCOPzyZbTmapjXHI
-      short-id: 22dff0
-      
-  - name: "EOFVPN Russia"
-    type: vmess
-    server: 89.23.113.148
-    port: 8081
-    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
-    alterId: 0
-    cipher: auto
-    network: http
-    ws-opts:
-      path: /
-      headers:
-        Host: coursera.org
-    udp: true
-    
-  - name: "EOFVPN Germany"
-    type: vmess
-    server: 147.45.178.107
-    port: 8081
-    uuid: "ccdb0ab5-b8aa-4bf2-af09-afe0d20aa462"
-    alterId: 0
-    cipher: auto
-    network: http
-    ws-opts:
-      path: /
-      headers:
-        Host: cdn.jsdelivr.net
-    udp: true
