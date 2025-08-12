@@ -48,7 +48,6 @@ proxy-groups:
       - HostVDS Finland
       - EOFVPN Russia
       - EOFVPN Germany
-      - Freedomline
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png'
   - name: Russia Inside
     type: select
